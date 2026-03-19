@@ -1,43 +1,65 @@
 {
   "marcas": [
     {
-    "id": "1",
-    "nombre":"Alfa Romeo",
-    "origen": "Italia",
-    "anioFundacion": 1910
+      "id": "1",
+      "nombre": "Alfa Romeo",
+      "origen": "Italia",
+      "anioFundacion": 1910
+    },
+    {
+      "id": "2",
+      "nombre": "bmw",
+      "origen": "alemania",
+      "anioFundacion": 1930
     }
-    
   ],
   "modelos": [
     {
-      "id":"1",
+      "id": "1",
       "idMarca": "1",
       "modelo": "Giulia",
       "extraPorModelo": 12
+    },
+    {
+      "id": "2",
+      "idMarca": "2",
+      "modelo": "serie 3",
+      "extraPorModelo": 13
     }
-    
   ],
   "vehiculos": [
     {
-    "id":"1",
-    "idModelo": "1",
-    "precioDia": 98,
-    "puertas": 4,
-    "sillaInfantil": false
+      "id": "1",
+      "idModelo": "1",
+      "precioDia": 98,
+      "puertas": 4,
+      "sillaInfantil": false
+    },
+    {
+      "id": "2",
+      "idModelo": "2",
+      "precioDia": 65,
+      "puertas": 4,
+      "sillaInfantil": true
     }
   ],
   "clientes": [
-      {
-        "id":"1",
-        "nombre":"Diego Velázquez",
-        "dni": "76523137I",
-        "alquileres":[
-          {
-            "idVehiculo":"1",
-            "numDias":4,
-            "fechaInic": "12/11/2025"
-          }
-        ]
-      }
+    {
+      "id": "1",
+      "nombre": "Diego Velázquez",
+      "dni": "76523137I",
+      "alquileres": [
+        {
+          "idVehiculo": "1",
+          "numDias": 4,
+          "fechaInic": "12/11/2025"
+        },
+        {
+          "idVehiculo": "1",
+          "numDias": 33,
+          "fechaInic": "05/04/2026"
+        }
+      ]
+    }
   ]
 }
